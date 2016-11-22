@@ -1,0 +1,17 @@
+body
+{
+	margin: 0;
+}
+div
+{
+	margin: 15px;
+	border: 1px solid black;
+}
+footer
+{
+	width: 100%;
+	background-color: gray;
+	padding: 2px;
+	bottom: 0px;
+	position: absolute;
+}
