@@ -1,0 +1,96 @@
+header {
+  font-size: 3em;
+  text-align: center;
+  padding: 1em 1em;
+  background-color: #1177aa; }
+
+body {
+  margin: 0; }
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  section div {
+    border: 2px red solid;
+    padding: 20px;
+    margin: 20px;
+    flex: 300px; }
+
+nav ul {
+  transition: transform 1s;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #3399aa;
+  justify-content: center; }
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 1em 3em;
+  display: block; }
+  nav a:hover {
+    background-color: #117799;
+    transform: scale(1.2); }
+
+.box1 {
+  flex: 1 300px;
+  box-shadow: 0 2px 5px #888;
+  transition: transform 0.5s; }
+  .box1:hover {
+    transform: scale(1.01); }
+
+.box2 {
+  flex: 1 300px;
+  box-shadow: 0 2px 5px #888;
+  transition: transform 0.5s; }
+  .box2:hover {
+    transform: scale(1.01); }
+
+.box3 {
+  flex: 1 300px;
+  box-shadow: 0 2px 5px #888;
+  transition: transform 0.5s; }
+  .box3:hover {
+    transform: scale(1.01); }
+
+.box4 {
+  flex: 1 300px;
+  box-shadow: 0 2px 5px #888;
+  transition: transform 0.5s; }
+  .box4:hover {
+    transform: scale(1.01); }
+
+.buttonnav {
+  display: none; }
+
+@media all and (max-width: 48em) {
+  nav ul {
+    flex-flow: column;
+    text-align: center;
+    max-height: 0;
+    transition: max-height 1s;
+    overflow: hidden; }
+
+  .buttonnav {
+    display: block;
+    background-color: #117799;
+    text-align: center;
+    padding: 1em;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer; }
+
+  .block {
+    max-height: 500px; } }
+footer {
+  position: fixed;
+  overflow: hidden;
+  background-color: #1177aa;
+  padding: 1em 1em;
+  margin: 0;
+  bottom: 0px;
+  width: 100%; }
+
+/*# sourceMappingURL=main.css.map */
